@@ -1,0 +1,79 @@
+title: "Lander - Rife Design - Apollo13 Premium WordPress Theme"
+email: "contact@warhorseindustrial.com"
+description: >- # this means to ignore newlines until "baseurl:"
+ War Horse Industrial is committed to serving the refinery and petrochemical clients along the Gulf Coast with excellent service and extensive product lines.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.warhorseindustrial.com" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_url: https://www.facebook.com/#/
+twitter_url: https://twitter.com/#
+linkedin_url: https://www.linkedin.com/company/#/
+# github_url:  https://github.com
+# pinterest_url: https://www.pinterest.com/
+# instagram_url: https://www.instagram.com/
+logo: "/assets/img/logos/warhorse-industrial-image-only-160x53.png"
+cover_image: "/assets/img/bg/page-title.jpg"
+
+permalink: "/:title/"
+
+#set incremental to true in order to speed up build time. When using set post and pages to 'regenerate: true'
+
+incremental: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-archives
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: page
+      #author_profile: false
+      regenerate: true
+  # assets
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "/images"
+    values:
+      image: true
+  - scope:
+      path: "/pdfs"
+    values:
+      pdf: true
+
+#collections
+collections:
+  features:
+    output: true
+  services:
+    output: true
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  jekyll-archives:
+  enabled: category
+  layouts:
+    category: category
+  permalinks:
+    category: '/category/:name/'
+
+feed:
+      path: "/feed.xml"
+
+exclude:
+  - .jekyll-cache
