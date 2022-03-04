@@ -8,10 +8,12 @@
 		<title> Lander &#8211; Rife Design &#8211; Apollo13 Premium WordPress Theme</title>
 		<meta name='robots' content='max-image-preview:large' />
 
+		<link rel='stylesheet' href='{{ "/assets/css/icomoon.css" | relative_url }}' type='text/css' media='all' />
+		<link rel='stylesheet' href='{{ "/assets/css/style.css" | relative_url }}' type='text/css' media='all' />
+        <link rel='stylesheet' href='{{ "/assets/css/font-awesome.min.css"| relative_url }}' type='text/css' media='all' />
 
-		<link rel='stylesheet' href='/css/icomoon.css' type='text/css' media='all' />
-		<link rel='stylesheet' href='/css/style.css' type='text/css' media='all' />
-        <link rel='stylesheet' href='/css/font-awesome.min.css' type='text/css' media='all' />
+        <script type='text/javascript' src='{{ "assets/js/jquery.min.js" | relative_url }}' id='jquery-core-js'></script>
+        <script type='text/javascript' src='{{ "assets/js/jquery-migrate.min.js" | relative_url }}' id='jquery-migrate-js'></script>
 
 		<link rel="canonical" href="https://rifetheme.com/lander/" />
 		<link rel='shortlink' href='https://rifetheme.com/lander/' />
@@ -28,12 +30,12 @@
 						<!-- this element is need in HTML even if menu is disabled -->
 						<div class="menu-container">
 							<ul id="menu-main-menu" class="top-menu with-effect menu--ferdinand opener-icons-on">
-								<li id="menu-item-11951" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11951 normal-menu"><a href="#home"><span><em>Home</em></span></a></li>
-								<li id="menu-item-11946" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11946 normal-menu"><a href="#features"><span><em>Features</em></span></a></li>
-								<li id="menu-item-11952" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11952 normal-menu"><a href="#works"><span><em>Works</em></span></a></li>
-								<li id="menu-item-11948" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11948 normal-menu"><a href="#team"><span><em>Team</em></span></a></li>
-								<li id="menu-item-11947" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11947 normal-menu"><a href="#contact"><span><em>Contact</em></span></a></li>
-								<li id="menu-item-11949" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11949 normal-menu"><a href="#clients"><span><em>Clients</em></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11951 normal-menu"><a href="#home"><span><em>Home</em></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11946 normal-menu"><a href="#features"><span><em>Features</em></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11952 normal-menu"><a href="#works"><span><em>Works</em></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11948 normal-menu"><a href="#team"><span><em>Team</em></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11947 normal-menu"><a href="#contact"><span><em>Contact</em></span></a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11949 normal-menu"><a href="#clients"><span><em>Clients</em></span></a></li>
 							</ul>
 						</div>
 					</nav>
@@ -49,7 +51,7 @@
 										<div data-elementor-type="wp-post" data-elementor-id="8754" class="elementor elementor-8754" data-elementor-settings="[]">
 											<div class="elementor-inner">
 												<div class="elementor-section-wrap">
-													<section class="elementor-section elementor-top-section elementor-element elementor-element-bcec401 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bcec401" data-element_type="section" id="home" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/youtu.be\/wq5YoZp298M&quot;,&quot;shape_divider_bottom&quot;:&quot;curve&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
+													<section class="elementor-section elementor-top-section elementor-element elementor-element-bcec401 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bcec401" data-element_type="section" id="home" >
 														<div class="elementor-background-video-container elementor-hidden-phone">
 															<div class="elementor-background-video-embed"></div>
 														</div>
@@ -136,7 +138,7 @@
 																				<div class="elementor-widget-container">
 																					<div class="elementor-image">
 																						<a href="#about">
-																							<img width="297" height="35" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-downBTN.png" class="attachment-full size-full" alt="" loading="lazy" /> </a>
+																							<img width="297" height="35" src="{{ '/assets/img/lander-downBTN.png' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </a>
 																					</div>
 																				</div>
 																			</div>
@@ -197,7 +199,7 @@
 																									<div class="elementor-element elementor-element-f48a6fc elementor-widget elementor-widget-image" data-id="f48a6fc" data-element_type="widget" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="64" height="64" src="https://rifetheme.com/wp-content/uploads/2019/02/radar@2x.png" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+																												<img width="64" height="64" src="{{ '/assets/img/radar@2x.png' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																									<div class="elementor-element elementor-element-da92b6a elementor-widget elementor-widget-heading" data-id="da92b6a" data-element_type="widget" data-widget_type="heading.default">
@@ -221,7 +223,7 @@
 																									<div class="elementor-element elementor-element-f23e910 elementor-widget elementor-widget-image" data-id="f23e910" data-element_type="widget" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="64" height="64" src="https://rifetheme.com/wp-content/uploads/2019/02/cog@2x.png" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+																												<img width="64" height="64" src="{{ '/assets/img/cog@2x.png' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																									<div class="elementor-element elementor-element-8b838cb elementor-widget elementor-widget-heading" data-id="8b838cb" data-element_type="widget" data-widget_type="heading.default">
@@ -245,7 +247,7 @@
 																									<div class="elementor-element elementor-element-5d6c96a elementor-widget elementor-widget-image" data-id="5d6c96a" data-element_type="widget" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="64" height="64" src="https://rifetheme.com/wp-content/uploads/2019/02/eye-open@2x.png" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+																												<img width="64" height="64" src="{{ '/assets/img/eye-open@2x.png' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																									<div class="elementor-element elementor-element-57df56d elementor-widget elementor-widget-heading" data-id="57df56d" data-element_type="widget" data-widget_type="heading.default">
@@ -347,7 +349,7 @@
 																									<div class="elementor-element elementor-element-d7d1b35 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="d7d1b35" data-element_type="widget" data-widget_type="image-box.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image-box-wrapper">
-																												<figure class="elementor-image-box-img"><img width="100" height="100" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-icon_05.gif" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+																												<figure class="elementor-image-box-img"><img width="100" height="100" src="{{ '/assets/img/lander-icon_05.gif' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /></figure>
 																												<div class="elementor-image-box-content">
 																													<h3 class="elementor-image-box-title">All Ready Designs <sup>Pro</sup></h3>
 																													<p class="elementor-image-box-description">Get unlimited access to all current and upcoming designs when using Rife Pro Theme</p>
@@ -358,7 +360,7 @@
 																									<div class="elementor-element elementor-element-f06106b elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="f06106b" data-element_type="widget" data-widget_type="image-box.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image-box-wrapper">
-																												<figure class="elementor-image-box-img"><img width="100" height="100" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-icon.gif" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+																												<figure class="elementor-image-box-img"><img width="100" height="100" src="{{ '/assets/img/lander-icon.gif' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /></figure>
 																												<div class="elementor-image-box-content">
 																													<h3 class="elementor-image-box-title">Photography Slider</h3>
 																													<p class="elementor-image-box-description">Responsive WordPress Slider Plugin that displays your content in a beautiful way!</p>
@@ -369,7 +371,7 @@
 																									<div class="elementor-element elementor-element-5430feb elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="5430feb" data-element_type="widget" data-widget_type="image-box.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image-box-wrapper">
-																												<figure class="elementor-image-box-img"><img width="100" height="100" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-icon_02.gif" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+																												<figure class="elementor-image-box-img"><img width="100" height="100" src="{{ '/assets/img/lander-icon_02.gif' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /></figure>
 																												<div class="elementor-image-box-content">
 																													<h3 class="elementor-image-box-title">Premium Support <sup>Pro</sup></h3>
 																													<p class="elementor-image-box-description">Whenever you struggle with anything regarding Rife Pro, just hit us on support forum.</p>
@@ -386,7 +388,7 @@
 																									<div class="elementor-element elementor-element-182d110 elementor-invisible elementor-widget elementor-widget-image" data-id="182d110" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="350" height="622" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-iphone.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://rifetheme.com/wp-content/uploads/2019/02/lander-iphone.jpg 350w, https://rifetheme.com/wp-content/uploads/2019/02/lander-iphone-169x300.jpg 169w" sizes="(max-width: 350px) 100vw, 350px" /> </div>
+																												<img width="350" height="622" src="{{ '/assets/img/lander-iphone.jpg' | relative_url }}" class="attachment-large size-large" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																								</div>
@@ -398,7 +400,7 @@
 																									<div class="elementor-element elementor-element-f2bcf5f elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="f2bcf5f" data-element_type="widget" data-widget_type="image-box.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image-box-wrapper">
-																												<figure class="elementor-image-box-img"><img width="100" height="100" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-icon_09.gif" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+																												<figure class="elementor-image-box-img"><img width="100" height="100" src="{{ '/assets/img/lander-icon_09.gif' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /></figure>
 																												<div class="elementor-image-box-content">
 																													<h3 class="elementor-image-box-title">Live Customizer</h3>
 																													<p class="elementor-image-box-description">WordPress "Live Customizer" will help you see the changes made on your website.</p>
@@ -409,7 +411,7 @@
 																									<div class="elementor-element elementor-element-95f2a2c elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="95f2a2c" data-element_type="widget" data-widget_type="image-box.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image-box-wrapper">
-																												<figure class="elementor-image-box-img"><img width="100" height="100" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-icon_03.gif" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+																												<figure class="elementor-image-box-img"><img width="100" height="100" src="{{ '/assets/img/lander-icon_03.gif' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /></figure>
 																												<div class="elementor-image-box-content">
 																													<h3 class="elementor-image-box-title">WooCommerce <sup>Ready</sup></h3>
 																													<p class="elementor-image-box-description">WooCommerce is now the most popular eCommerce platform on the WordPress.</p>
@@ -420,7 +422,7 @@
 																									<div class="elementor-element elementor-element-c72bdf6 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="c72bdf6" data-element_type="widget" data-widget_type="image-box.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image-box-wrapper">
-																												<figure class="elementor-image-box-img"><img width="100" height="100" src="https://rifetheme.com/wp-content/uploads/2019/02/lander-icon_06.gif" class="attachment-full size-full" alt="" loading="lazy" /></figure>
+																												<figure class="elementor-image-box-img"><img width="100" height="100" src="{{ '/assets/img/lander-icon_06.gif' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /></figure>
 																												<div class="elementor-image-box-content">
 																													<h3 class="elementor-image-box-title">SAFE & SEO READY </h3>
 																													<p class="elementor-image-box-description">Rife is compatible with Yoast SEO plugin. Use Yoast plugin to maximize your SEO game. </p>
@@ -594,7 +596,7 @@
 																			<div class="elementor-element elementor-element-4ac3ab3 elementor-widget elementor-widget-image" data-id="4ac3ab3" data-element_type="widget" data-widget_type="image.default">
 																				<div class="elementor-widget-container">
 																					<div class="elementor-image">
-																						<img width="800" height="466" src="https://rifetheme.com/wp-content/uploads/2019/02/landerBG7-1024x596.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://rifetheme.com/wp-content/uploads/2019/02/landerBG7-1024x596.jpg 1024w, https://rifetheme.com/wp-content/uploads/2019/02/landerBG7-300x175.jpg 300w, https://rifetheme.com/wp-content/uploads/2019/02/landerBG7-768x447.jpg 768w, https://rifetheme.com/wp-content/uploads/2019/02/landerBG7.jpg 1600w" sizes="(max-width: 800px) 100vw, 800px" /> </div>
+																						<img width="800" height="466" src="{{ '/assets/img/landerBG7-1024x596.jpg' | relative_url }}" class="attachment-large size-large" alt="" loading="lazy" /> </div>
 																				</div>
 																			</div>
 																		</div>
@@ -877,7 +879,7 @@
 																											<div class="bricks-frame works-bricks works-bricks-1  variant-overlay works-columns-3 hover-effect-drop title-mid title-center cover-hover texts-hover">
 																												<div class="works-grid-container" data-margin="0">
 																													<div class="grid-master"></div>
-																													<div class="archive-item object-item open-item-in-lightbox w1" data-category-13="1" data-category-16="1" data-id="work-11348" itemtype="https://schema.org/CreativeWork" itemscope><img loading="lazy" src="https://rifetheme.com/wp-content/uploads/apollo13_images/work4-2-6spxg4jcdhf2kp125f1d9s59sefycf707u.jpg" alt="" title="work4" width="640" height="480" />
+																													<div class="archive-item object-item open-item-in-lightbox w1" data-category-13="1" data-category-16="1" data-id="work-11348" itemtype="https://schema.org/CreativeWork" itemscope><img loading="lazy" src="{{ 'assests/images/apollo13_images/work4-2-6spxg4jcdhf2kp125f1d9s59sefycf707u.jpg' | relative_url }}" alt="" title="work4" width="640" height="480" />
 																														<div class="cover" style="background-color:rgba(0,0,0, 0.7);"></div>
 																														<div class="covering-image"></div>
 																														<div class="icon a13icon-plus"></div>
@@ -1003,7 +1005,7 @@
 																									<div class="elementor-element elementor-element-b5a536c elementor-widget elementor-widget-image" data-id="b5a536c" data-element_type="widget" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="400" height="500" src="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-1.jpg" class="attachment-full size-full" alt="" loading="lazy" srcset="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-1.jpg 400w, https://rifetheme.com/wp-content/uploads/2019/02/raven-face-1-240x300.jpg 240w" sizes="(max-width: 400px) 100vw, 400px" /> </div>
+																												<img width="400" height="500" src="{{ '/assets/img/raven-face-1.jpg' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																									<div class="elementor-element elementor-element-bf39810 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="bf39810" data-element_type="widget" data-widget_type="social-icons.default">
@@ -1082,7 +1084,7 @@
 																									<div class="elementor-element elementor-element-b2f1324 elementor-widget elementor-widget-image" data-id="b2f1324" data-element_type="widget" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="400" height="500" src="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-3.jpg" class="attachment-full size-full" alt="" loading="lazy" srcset="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-3.jpg 400w, https://rifetheme.com/wp-content/uploads/2019/02/raven-face-3-240x300.jpg 240w" sizes="(max-width: 400px) 100vw, 400px" /> </div>
+																												<img width="400" height="500" src="{{ '/assets/img/raven-face-3.jpg' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																									<div class="elementor-element elementor-element-f5cdfb4 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="f5cdfb4" data-element_type="widget" data-widget_type="social-icons.default">
@@ -1161,7 +1163,7 @@
 																									<div class="elementor-element elementor-element-65b44c2 elementor-widget elementor-widget-image" data-id="65b44c2" data-element_type="widget" data-widget_type="image.default">
 																										<div class="elementor-widget-container">
 																											<div class="elementor-image">
-																												<img width="400" height="500" src="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-2.jpg" class="attachment-full size-full" alt="" loading="lazy" srcset="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-2.jpg 400w, https://rifetheme.com/wp-content/uploads/2019/02/raven-face-2-240x300.jpg 240w" sizes="(max-width: 400px) 100vw, 400px" /> </div>
+																												<img width="400" height="500" src="{{ '/assets/img/raven-face-2.jpg' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																										</div>
 																									</div>
 																									<div class="elementor-element elementor-element-0d8cec7 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="0d8cec7" data-element_type="widget" data-widget_type="social-icons.default">
@@ -1467,7 +1469,7 @@
 																												<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 																													<div class="elementor-testimonial-meta-inner">
 																														<div class="elementor-testimonial-image">
-																															<img width="400" height="500" src="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-3.jpg" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+																															<img width="400" height="500" src="{{ '/assets/img/raven-face-3.jpg' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																														<div class="elementor-testimonial-details">
 																															<div class="elementor-testimonial-name">Dana Bailey</div>
 																															<div class="elementor-testimonial-job">Designer</div>
@@ -1490,7 +1492,7 @@
 																												<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 																													<div class="elementor-testimonial-meta-inner">
 																														<div class="elementor-testimonial-image">
-																															<img width="400" height="500" src="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-2.jpg" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+																															<img width="400" height="500" src="{{ '/assets/img/raven-face-2.jpg' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																														<div class="elementor-testimonial-details">
 																															<div class="elementor-testimonial-name">David Larsen</div>
 																															<div class="elementor-testimonial-job">developer</div>
@@ -1513,7 +1515,7 @@
 																												<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 																													<div class="elementor-testimonial-meta-inner">
 																														<div class="elementor-testimonial-image">
-																															<img width="400" height="500" src="https://rifetheme.com/wp-content/uploads/2019/02/raven-face-1.jpg" class="attachment-full size-full" alt="" loading="lazy" /> </div>
+																															<img width="400" height="500" src="{{ '/assets/img/raven-face-1.jpg' | relative_url }}" class="attachment-full size-full" alt="" loading="lazy" /> </div>
 																														<div class="elementor-testimonial-details">
 																															<div class="elementor-testimonial-name">Mary Wells</div>
 																															<div class="elementor-testimonial-job">Journalist</div>
@@ -1593,7 +1595,7 @@
 			<footer id="footer" class="to-move narrow classic footer-separator" itemtype="https://schema.org/WPFooter" itemscope>
 				<div class="foot-widgets four-col dark-sidebar">
 					<div class="foot-content clearfix">
-						<div id="media_image-8" class="widget widget_media_image"><img width="146" height="40" src="https://rifetheme.com/wp-content/uploads/2019/02/rifefree.png" class="image wp-image-12104  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></div>
+						<div id="media_image-8" class="widget widget_media_image"><img width="146" height="40" src="{{ '/assets/img/rifefree.png' | relative_url }}" class="image wp-image-12104  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></div>
 						<div id="text-17" class="widget widget_text">
 							<h3 class="title"><span>Why Lander</span></h3>
 							<div class="textwidget">
@@ -1631,16 +1633,16 @@
 			<div id="content-overlay" class="to-move"></div>
 		</div><!-- .whole-layout -->
 
-		<script type='text/javascript' src='/js/helpers.min.js'></script>
-		<script type='text/javascript' src='/js/jquery.fitvids.min.js'></script>
-		<script type='text/javascript' src='/js/jquery.fittext.min.js'></script>
-		<script type='text/javascript' src='/js/jquery.slides.min.js'></script>
-		<script type='text/javascript' src='/js/jquery.sticky-kit.min.js'></script>
-		<script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>
-		<script type='text/javascript' src='/js/typed.min.js'></script>
-		<script type='text/javascript' src='/js/isotope.pkgd.min.js'></script>
-		<script type='text/javascript' src='/js/light-gallery//js/lightgallery-all.min.js'></script>
-		<script type='text/javascript' src='/js/script.min.js'></script>
+		<script type='text/javascript' src='{{ "assets/js/helpers.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/jquery.fitvids.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/jquery.fittext.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/jquery.slides.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/jquery.sticky-kit.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/jquery.mousewheel.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/typed.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/isotope.pkgd.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/light-gallery/js/lightgallery-all.min.js" | relative_url }}'></script>
+		<script type='text/javascript' src='{{ "assets/js/script.min.js" | relative_url }}'></script>
 
 		</div>
 	</body>
